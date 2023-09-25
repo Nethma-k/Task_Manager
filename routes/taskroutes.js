@@ -10,7 +10,7 @@ router.post('/test',auth, (req, res) => {
     })
 });
 
-router.post('/', auth, async(req,res) => {
+router.put('/', auth, async(req,res) => {
     try{
         const task= new Task({
             ...req.body,

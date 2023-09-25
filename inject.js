@@ -42,7 +42,7 @@ async function seedDatabase() {
     }
     console.log(`${NUM_TASKS} tasks injected successfully.`);
   } catch (err) {
-    console.error('Error seeding database:', err);
+    console.error('Error injecting tasks to database:', err);
   } finally {
     mongoose.disconnect();
   }

@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 require('dotenv').config();
 
-const MONGO_URL= 'mongodb+srv://nka:Roseisred1002@cluster0.adm6m4a.mongodb.net/';
+const MONGO_URL= 'mongodb+srv://nka:nka123@cluster0.adm6m4a.mongodb.net/';
 const DB_NAME = 'db1';
 
 mongoose.connect(MONGO_URL,{

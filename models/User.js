@@ -8,7 +8,6 @@ const userSchema = new mongoose.Schema({
     timestamps:true
 });
 
-//middleware which converts the password into a hashed password
 userSchema.pre('save',async function(next){
     const user = this;
 
